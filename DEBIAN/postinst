@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+
+# build the python files
+py3compile -p webpthumbnailer /usr/share/webpthumbnailer

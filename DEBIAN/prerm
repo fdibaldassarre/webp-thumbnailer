@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+
+# remove the python byte-compiled files
+py3clean -p webpthumbnailer /usr/share/webpthumbnailer
